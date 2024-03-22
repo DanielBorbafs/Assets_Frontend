@@ -1,9 +1,6 @@
 const AbrirMenu = () => document.body.classList.toggle("open");
 
-function removerClasse() {
-    document.body.classList.remove("open")
-}
 
-var botaoRemover = document.getElementById("remove");
+const removeClasse() = () => document.body.classList.remove("open");
 
-botaoRemover.addEventListener("click", removerClasse)
+
